@@ -11,9 +11,9 @@ Other Python packages used:
  Outline of steps towards making a GOTO classifier
  
  1. Simulating light curves:
-  - Supernova light curves were simulated using `sncosmo` and the built-in templates, and then transformed into the GOTO L filter and sampled according to the spacing from real GOTO supernova light curves.
+  - Supernova light curves were simulated using `sncosmo` and the built-in templates, and then transformed into the GOTO L filter and sampled according to the cadence from real GOTO supernova light curves.
   - M-dwarf flare light curves were simulated using `AltaiPony`. Fractional fluxes were converted to magnitude differences and then scaled to have magnitudes ranging from 12 - 16 mag.
-  - Variable star light curves were simulated using Gaussian Processes on real GOTO variable star light curves, and then sampled according to spacing from real GOTO light curves.
+  - Variable star light curves were simulated using Gaussian Processes on real GOTO variable star light curves, and then sampled according to the cadence from real GOTO light curves.
   
  2. Training the model:
   - Split the simulated light curves into a balanced training set and a test set.
