@@ -1,5 +1,5 @@
 # goto-classifier
-A machine-learning classifier for classifying GOTO light curves, using Python 3. Currently the aim of the classifier is to classify lightcurves into *flare/variable star* and *supernova/transient* classes.
+A machine-learning classifier for classifying GOTO light curves, using Python 3. Currently the aim of the classifier is to classify lightcurves into *flare/variable star* and *supernova/transient* classes. The goal is to eventually be able to classify into more specific classes of transients (including kilonovae) and also be able to identify peculiar or interesting objects for follow-up.
 
 Links to packages used for simulating light curves:
 - Supernova light curves - `sncosmo` http://sncosmo.github.io/
