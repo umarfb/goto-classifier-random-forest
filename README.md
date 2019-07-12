@@ -22,3 +22,7 @@ Other Python packages used:
  
  3. Testing performance:
   - Use the classifier on real GOTO light curves.
+
+Example notebooks are also included:
+- `feature_extraction` shows some example GOTO light curves and the feature extraction process
+- `random_forest_classification` shows the process of making a random forest classifier to classify GOTO light curves
